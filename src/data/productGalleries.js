@@ -2,6 +2,30 @@ import green1 from '../assets/Green1.png'
 import green2 from '../assets/Green2.png'
 import green4 from '../assets/Green4.png'
 import green5 from '../assets/Green5.png'
+import grey1 from '../assets/Grey1.png'
+import grey2 from '../assets/Grey2.png'
+import grey4 from '../assets/Grey3.png'
+import grey5 from '../assets/Grey4.png'
+import black1 from '../assets/Black1.png'
+import black2 from '../assets/Black2.png'
+import black4 from '../assets/Black3.png'
+import black5 from '../assets/Black4.png'
+import blue1 from '../assets/Blue1.png'
+import blue2 from '../assets/Blue2.png'
+import blue4 from '../assets/Blue3.png'
+import blue5 from '../assets/Blue4.png'
+import brown1 from '../assets/Brown1.png'
+import brown2 from '../assets/Brown2.png'
+import brown4 from '../assets/Brown3.png'
+import brown5 from '../assets/Brown4.png'
+import sakura1 from '../assets/Sakura1.png'
+import sakura2 from '../assets/Sakura2.png'
+import sakura4 from '../assets/Sakura3.png'
+import sakura5 from '../assets/Sakura4.png'
+import speedtail1 from '../assets/Speadtail1.png'
+import speedtail2 from '../assets/Speadtail2.png'
+import speedtail4 from '../assets/Speadtail3.png'
+import speedtail5 from '../assets/Speadtail4.png'
 
 /**
  * Product Gallery Images Repository
@@ -33,28 +57,28 @@ export const PRODUCT_GALLERIES = {
     below: [green4, green5],
   },
   blue: {
-    above: [],
-    below: [],
+    above: [blue1, blue2],
+    below: [blue4, blue5],
   },
   black: {
-    above: [],
-    below: [],
+    above: [black1, black2],
+    below: [black4, black5],
   },
   grey: {
-    above: [],
-    below: [],
+    above: [grey1, grey2],
+    below: [grey4, grey5],
   },
   brown: {
-    above: [],
-    below: [],
+    above: [brown1, brown2],
+    below: [brown4, brown5],
   },
   sakura: {
-    above: [],
-    below: [],
+    above: [sakura1, sakura2],
+    below: [sakura4, sakura5],
   },
   speedtail: {
-    above: [],
-    below: [],
+    above: [speedtail1, speedtail2],
+    below: [speedtail4, speedtail5],
   },
 }
 
