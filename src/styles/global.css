@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('../fonts/PPNeueMontreal-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Montreal';
+  src: url('../fonts/ppneuemontreal-medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: 'PP Neue Montreal', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-montreal: 'PP Neue Montreal', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Box sizing reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Smooth scrolling reset for GSAP ScrollTrigger compatibility */
+html {
+  scroll-behavior: auto;
+}
+
+/* Hide visible browser scrollbar while keeping scrolling fully functional */
+html,
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none !important; /* Chrome, Safari, Edge, Opera */
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Basic body styling */
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
