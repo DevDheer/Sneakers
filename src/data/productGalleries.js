@@ -14,10 +14,6 @@ import blue1 from '../assets/Blue1.png'
 import blue2 from '../assets/Blue2.png'
 import blue4 from '../assets/Blue3.png'
 import blue5 from '../assets/Blue4.png'
-import brown1 from '../assets/Brown1.png'
-import brown2 from '../assets/Brown2.png'
-import brown4 from '../assets/Brown3.png'
-import brown5 from '../assets/Brown4.png'
 import sakura1 from '../assets/Sakura1.png'
 import sakura2 from '../assets/Sakura2.png'
 import sakura4 from '../assets/Sakura3.png'
@@ -69,8 +65,8 @@ export const PRODUCT_GALLERIES = {
     below: [grey4, grey5],
   },
   brown: {
-    above: [brown1, brown2],
-    below: [brown4, brown5],
+    above: [],
+    below: [],
   },
   sakura: {
     above: [sakura1, sakura2],
