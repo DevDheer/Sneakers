@@ -22,10 +22,10 @@ import speedtail1 from '../assets/Speadtail1.png'
 import speedtail2 from '../assets/Speadtail2.png'
 import speedtail4 from '../assets/Speadtail3.png'
 import speedtail5 from '../assets/Speadtail4.png'
-import brown1 from '../assets/Brown1.png'
-import brown2 from '../assets/Brown2.png'
-import brown4 from '../assets/Brown3.png'
-import brown5 from '../assets/Brown4.png'
+import bro1 from '../assets/bro1.png'
+import bro2 from '../assets/bro2.png'
+import bro4 from '../assets/bro3.png'
+import bro5 from '../assets/bro4.png'
 
 /**
  * Product Gallery Images Repository
@@ -69,8 +69,8 @@ export const PRODUCT_GALLERIES = {
     below: [grey4, grey5],
   },
   brown: {
-    above: [brown1, brown2],
-    below: [brown4, brown5],
+    above: [bro1, bro2],
+    below: [bro4, bro5],
   },
   sakura: {
     above: [sakura1, sakura2],
